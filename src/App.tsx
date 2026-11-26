@@ -2,7 +2,14 @@
 // const App = () => {
 //   const name = "Rahul"
 
-import UseEffectExample from "./UseEffectExample"
+import Counters from "./Counters"
+
+// import UseCallbackExample from "./UseCallbackExample"
+
+// import UseMemoExample from "./UseMemoExample"
+
+// import UseEffectExample from "./UseEffectExample"
+
 
 // import RegistrationForm from "./RegistrationForm"
 
@@ -99,10 +106,16 @@ import UseEffectExample from "./UseEffectExample"
 const App = () => {
   return (
     <div>
+
+      {/* <UseMemoExample/> */}
       {/* <OnChangeExample/> */}
       {/* <OnSubmitExample/> */}
       {/* <RegistrationForm/> */}
-      <UseEffectExample/>
+      {/* <UseEffectExample/> */}
+      {/* <UseCallbackExample/> */}
+
+      <Counters/>
+      
 
 
       
